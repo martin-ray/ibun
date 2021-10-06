@@ -11,7 +11,7 @@ int main(void){
   int age;
   printf("How old are you now?>");
   scanf("%d",&age);
-  printf("what is your earliest memory? And how old were you then?>");
+  printf("What is your earliest memory? And how old were you then?>");
   scanf("%d",&begin);
   printf("To what age are you gonnna live?>");
   scanf("%d",&end);
