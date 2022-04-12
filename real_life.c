@@ -16,14 +16,14 @@ int main(void){
   printf("To what age are you gonnna live?>");
   scanf("%d",&end);
   for(i=begin;i<=end;i++){
-    sum=sum+1/(double)i;
+    sum+=1/(double)i;
   }
   sum3=sum;
   sum2=sum/2;
   sum=0;
   i=begin;
   while(sum<=sum2){
-    sum=sum+1/(double)i;
+    sum+=1/(double)i;
     i++;
   }
 
@@ -31,7 +31,7 @@ int main(void){
 
   sum=0;
   for(i=begin;i<=age;i++){
-    sum=sum+1/(double)i;
+    sum+=1/(double)i;
   }
   percent=sum/sum3*100;
   printf("And your real life comes to %d%%. The rest of your life is %d%%\n",percent,100-percent);
