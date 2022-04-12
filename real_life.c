@@ -2,8 +2,8 @@
 #define BEGIN 4
 
 int main(void){
-  double sum=0,sum2=0,sum3;
-  int i,j;
+  double sum=0,sum2,sum3;
+  int i;
 
   int begin;
   int end;
